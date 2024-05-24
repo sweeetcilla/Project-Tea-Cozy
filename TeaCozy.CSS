@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0%;
+    text-align: center;
+}
+.logo-nav {
+    height: 69px;
+    width: 100%;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+}
+
+.logo-img{
+    float: left;
+    height: 50px;
+    padding-left: 10px;
+}
+.nav {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+.nav a {
+    height: 80%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+.nav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 80%;
+    text-decoration: underline;
+    color: white;
+}
+
+.mission {
+    text-align: center;
+    display: block;
+}
+
+.mission-text {
+    display: inline-block;
+    background-color: black;
+    width: 100%; 
+    align-content: center;
+    margin: 250px 0;
+    opacity: 0.7;
+}
+
+#mission {
+    background-image: url("../TeaCozy/img/img-mission-background.jpg");
+    background-repeat: none;
+    background-size: auto;
+    height: 700px;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+#featured {
+    display: block;
+    background-color: black;
+    width: 1000px;
+    height: auto;
+    margin: 100px auto 500px auto;   
+    align-content: center; 
+    justify-content: center;
+}
+
+.featured {
+    display: inline-flex;
+    height: 200px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-img img{
+    display: block;
+    max-height: 200px;
+    max-width: 300px;
+    padding: 10px 10px;
+}
+
+#locations {
+    display: block;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1gl79hx*_ga*NTcxMjA4ODQ1OS4xNjcwMTI2NDU5*_ga_3LRZM6TM9L*MTcxNjU1MjA1Ni40NS4wLjE3MTY1NTIwNTcuNTkuMC4w);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.location-container {
+    display: inline-block;
+    width: 1200px;
+    height: 500px;
+}
+
+.location-box {
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    padding: 40px;
+    margin: auto;
+}
+
+.banner-top {
+    display: block;
+}
+
+.footer {
+    text-align: left;
+}
+
+.contact {
+    display: block;
+    background-color: black;
+    opacity: 0.9;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
